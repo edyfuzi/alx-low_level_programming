@@ -1,14 +1,16 @@
-#include"main.h"
+#include "main.h"
 /**
 * main - Entry point
 *
-* Return: 0.
+* Return: Always returns 0
+*
 */
 int main(void)
 {
-char word[9] = "main";
-int i;
-for (i = 0; i < 9; i++)
-_putchar(word[i]);
+_putchar('m');
+_putchar('a');
+_putchar('i');
+_putchar('n');
+_putchar('\n');
 return (0);
 }
