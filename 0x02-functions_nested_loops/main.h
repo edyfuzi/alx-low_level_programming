@@ -6,11 +6,11 @@
 * Return: Always returns 0
 *
 */
-int main(void)
+void main(void);
 int_putchar(char m);
 int_putchar(char a);
 int_putchar(char i); 
 int_putchar(char n);
 int_putchar('\n');
-return (0);
+* Return: 0
 #endif
