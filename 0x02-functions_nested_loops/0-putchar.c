@@ -2,15 +2,13 @@
 /**
 * main - Entry point
 *
-* Return: Always returns 0
-*
+* Return: 0.
 */
 int main(void)
 {
-_putchar('m');
-_putchar('a');
-_putchar('i');
-_putchar('n');
-_putchar('\n');
+char word[9] = "main";
+int i;
+for (i = 0; i < 9; i++)
+_putchar(word[i]);
 return (0);
 }
