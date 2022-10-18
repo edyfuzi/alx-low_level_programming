@@ -1,21 +1,16 @@
-#include "main.h"
+#ifndef MAIN
+#define MAIN
 /**
 * main - Entry point
 *
 * Return: Always returns 0
 *
 */
-int main(void) 
-{  
-_putchar('H');  
-_putchar('o');  
-_putchar('l');  
-_putchar('b');
-_putchar('e');
-_putchar('r');
-_putchar('t');
-_putchar('o');
-_putchar('n');
-_putchar('\n');
+int main(void)
+int_putchar(char m);
+int_putchar(char a);
+int_putchar(char i); 
+int_putchar(char n);
+int_putchar('\n');
 return (0);
-}
+#endif
