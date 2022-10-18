@@ -15,18 +15,20 @@ int prod = j * i;
 if (j == 0)
 {
 _putchar('0');
-} else if (prod <= 9)
+}
+else if (prod <= 9)
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar(prod + '0');	      
-} else	      
+_putchar(prod + '0');
+}
+else
 {
 _putchar(',');
 _putchar(' ');
 _putchar(prod / 10 + '0');
-_putchar(prod % 10 + '0');	      
+_putchar(prod % 10 + '0');
 }
 }
 _putchar('\n');
