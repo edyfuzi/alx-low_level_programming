@@ -6,17 +6,17 @@
 * Return: Always returns 0
 *
 */
-int main(void) 
+int main(void)
 {
-_putchar('H');
-_putchar('o');
-_putchar('l');
-_putchar('b');
-_putchar('e');
-_putchar('r');
-_putchar('t');
-_putchar('o');
-_putchar('n');
-_putchar('\n');
+int_putchar('H');
+int_putchar('o');
+int_putchar('l');
+int_putchar('b');
+int_putchar('e');
+int_putchar('r');
+int_putchar('t');
+int_putchar('o');
+int_putchar('n');
+int_putchar('\n');
 return (0);
 #endif
