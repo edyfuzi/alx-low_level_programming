@@ -1,21 +1,16 @@
+#include <unistd.h>
 #include "main.h"
 /**
-* main - Entry point
-*
-* Return: Always returns 0
-*
+* main - Check description
+* Description: It prints the word main, followed by a new line.
+* Return: 0.
 */
 int main(void)
 {
-_putchar('H');
-_putchar('o');
-_putchar('l');
-_putchar('b');
-_putchar('e');
-_putchar('r');
-_putchar('t');
-_putchar('o');
-_putchar('n');
+char word[9] = "main";
+int i;
+for (i = 0; i < 9; i++)
+_putchar(word[i]);
 _putchar('\n');
 return (0);
 }
