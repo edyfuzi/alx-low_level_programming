@@ -1,5 +1,4 @@
-#ifndef MAIN
-#define MAIN
+#include"main.h"
 /**
 * main - Entry point
 *
@@ -8,10 +7,10 @@
 */
 int main(void)
 {
-int_putchar(char m);
-int_putchar(char a);
-int_putchar(char i);
-int_putchar(char n);
-int_putchar('\n');
+_putchar('m');
+_putchar('a');
+_putchar('i');
+_putchar('n');
+_putchar('\n');
 return (0);
-#endif
+}
