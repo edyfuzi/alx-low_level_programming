@@ -7,10 +7,10 @@
 *
 */
 void main(void);
-int_putchar(char m);
-int_putchar(char a);
-int_putchar(char i); 
-int_putchar(char n);
+int_putchar(m);
+int_putchar(a);
+int_putchar(i); 
+int_putchar(n);
 int_putchar('\n');
 * Return: 0
 #endif
