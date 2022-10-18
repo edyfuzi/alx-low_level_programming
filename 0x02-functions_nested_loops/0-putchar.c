@@ -1,4 +1,5 @@
-#include "main.h"
+#ifndef MAIN
+#define MAIN
 /**
 * main - Entry point
 *
@@ -14,4 +15,4 @@ sh++;
 }
 _putchar('\n');
 return (0);
-}
+#endif
