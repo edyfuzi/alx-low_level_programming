@@ -4,7 +4,7 @@
 * @n: integer to return
 *
 */
-void print_times_table(int n) 
+void print_times_table(int n)
 {
 int i;
 int j;
@@ -28,7 +28,7 @@ _putchar(' ');
 _putchar('0' + prod);
 }
 else if (prod > 99)
-{	  
+{
 _putchar(',');
 _putchar(' ');
 _putchar('0' + (prod / 100));
