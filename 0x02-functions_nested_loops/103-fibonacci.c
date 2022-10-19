@@ -4,7 +4,7 @@
 *
 * Return: nothing
 */
-int main(void) 
+int main(void)
 {
 int counter = 0;
 long int a = 1;
