@@ -23,7 +23,7 @@ if (tortoise == hare)
 {
 tortoise = head;
 while (tortoise != hare)
-{      
+{
 nodes++;
 tortoise = tortoise->next;
 hare = hare->next;
