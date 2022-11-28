@@ -14,7 +14,8 @@ if (head == NULL || head->next == NULL)
 return (NULL);
 tortoise = head->next;
 hare = (head->next)->next;
-while (hare){
+while (hare)
+{
 if (tortoise == hare)
 {
 tortoise = head;
